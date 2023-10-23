@@ -1,0 +1,16 @@
+{
+  "name": "rick-morty-api",
+  "version": "1.0.0",
+  "description": "Practice getting data with a API using async",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EdGonzz/rick-morty-api"
+  },
+  "keywords": [],
+  "author": "Edwin Contreras ed25gonz@gmail.com",
+  "license": "MIT"
+}
