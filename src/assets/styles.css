@@ -64,21 +64,13 @@ body {
     display: flex;
 }
 
-.nav__link {
-    font-size: var(--txt-ss);
-    text-decoration: none;
-    color: var(--link-color);
-    font-weight: 800;
-}
-
-.nav__link:hover {
-    color: var(--color-letter);
-    text-shadow: 0 0 15px var(--principal-color);
-    text-decoration: underline;
+.svg__link:hover {
+    fill: var(--link-color);
+    transition: all 0.5s;
 } 
 
 .nav--space {
-    padding-right: 15px;
+    padding-right: 30px;
 }
 
 /*Section*/
@@ -153,6 +145,7 @@ body {
     padding: 8px;
 }
 
+
 .footer__autor p {
     font-size: var(--txt-ss);
     color: var(--color-subtxt);
@@ -163,7 +156,7 @@ body {
     color: var(--link-color);
 }
 
-.footer__autor p > a:hover {
+.footer__autor a:hover {
     text-decoration: underline;
     color: var(--color-letter);
 }
